@@ -103,5 +103,11 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js&quot; type=&quot;text/javascript"></script>
     <script src="assets/js/script.min.js"></script>
 </body>
+    
+    <script>
+if (location.protocol != 'https:') {
+ location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+</script>
 
 </html>
